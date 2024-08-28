@@ -1,0 +1,171 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.navbar::before {
+    content: '';
+    position: absolute;
+ background: url(/Assets/Orange\ Background\ Simple\ Gradient\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg) no-repeat;
+ background-size: cover;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+  }
+.mapContainer{
+   height: 140vh;
+   width: 100%;
+   background-color: rgb(26, 25, 25);
+}
+.anchor a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   background: rgb(44, 43, 43);
+}
+.animatedImg1{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+top: 40px;
+left: 30px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-26-14.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.RamPng {
+   height: 200px;
+   width: 200px;
+   top: 40px;
+   left: 100px;
+   position: absolute;
+   animation: path 15s 600ms  forwards ;
+   animation-delay: 3s;
+   z-index: 3;
+}
+
+@keyframes path {
+   0%{
+      top: 40px;
+      left: 100px;
+   }
+   15%{
+      top: 40px;
+      left: 900px;
+   }
+   30%{
+      top: 240px;
+      left: 900px;
+   }
+   45%{
+      top: 240px;
+      left: 100px;
+   }
+   60%{
+      top: 440px;
+      left: 100px;
+   }
+   75%{
+      top: 440px;
+      left: 900px;
+   }
+   90%{
+      top: 640px;
+      left: 900px;
+   }
+   100%{
+      top: 640px;
+      left: 500px;
+   }
+}
+.animatedImg2{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+   top: 190px;
+   left: 900px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-26-07.jpg);
+   background-size: cover;
+}
+
+.animatedImg3{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+   top: 428px;
+   left: 900px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-26-04.jpg);
+   background-size: contain;
+
+}
+.animatedImg4{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+top: 428px;
+left: 90px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-26-00.jpg);
+   background-size: cover;
+}
+.animatedImg5{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+top: 628px;
+left: 90px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-25-55.jpg);
+   background-size: contain;
+}
+.animatedImg6{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+top: 628px;
+left: 900px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-25-53.jpg);
+   background-size: contain;
+}
+.animatedImg7{
+   width: 150px;
+   border-radius: 50%;
+   background-color: saddlebrown;
+   height: 150px;
+top: 828px;
+left: 400px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/Assets/photo_2024-08-22_17-25-43.jpg);
+   background-size: contain;
+}

@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+ body  {
+    color: white;
+
+ overflow-x: hidden;
+
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+ 
+  }
+.container::before {
+    content: '';
+    position: absolute;
+ background: url(/Assets/Orange\ Background\ Simple\ Gradient\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg) no-repeat;
+ background-size: cover;
+    height: 200vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .navbar {
+    height: 100px;
+    width: 100%;
+ z-index: 100;
+    color: white;
+  }
+  nav {
+    display: flex;
+    margin-left: 25px;
+  }
+  .logo img {
+    height: 98px;
+    width: 82px;
+    margin: -3px 3px;
+    padding: 0px;
+  }
+  nav ul {
+    display: flex;
+    margin-left: 56%;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0px 3px;
+    padding: 10px;
+  }
+  nav ul li img{
+    height: 54px;
+    width: 54px;
+  }
+  .shoppingBag{
+    position: relative;
+    left: -12px;
+    top: 7px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin: 5px 3px;
+    padding: 14px 14px;
+    font-size: 26px;
+    box-shadow: inset 0 0 0 0 #351202;
+    transition: 400ms ease-out;
+   
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+  }
+  nav ul li a:hover{
+    box-shadow: inset 100px 0 0 0  #4e2600;
+  }
+  /* content */
+  .content{
+    height: 90vh;
+    width: 100%;
+    border: 1px solid black;
+    pointer-events: none;
+  }
+  .wish{
+
+    position: absolute;
+    background-attachment: fixed;
+    top: 55%;
+    left: 28%;
+    font-size: 4.5rem;
+    z-index: 3;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+  }
+  .ramayan-txt{
+    position: relative;
+    top: 10px;
+    left: 65px;
+  }
+  .grass{
+    position: absolute;
+    top: 27%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: rotate(1.2deg);
+    overflow: hidden;
+    background-attachment: fixed;
+    z-index: 2;
+  }
+  .ram{
+    position: absolute;
+    top: -13%;
+    left: -43px;
+    height: 525px;
+    width: 525px;
+background-attachment: fixed;
+z-index: 3;
+  }
+  .ravan{
+    position: absolute;
+    top: 22%;
+    height: 525px;
+    width: 487px;
+    right: 2%;
+ background-attachment: fixed;
+ z-index: 3;
+  }
+  .parallel{
+   height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: -16px;
+    background-color: black;
+  }
+.info{
+  height: 400px;
+  width: 48%;
+  margin: 5px 5px;
+  border: 2px solid white;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.info p{
+  padding: 10px 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.mapBtn{
+  height: 60px;
+  width: 200px;
+  font-size: 21px;
+  border-radius: 23px;
+  border: 1px solid white;
+  background-color: black;
+  margin-top: 12px
+}
+.mapBtn a{
+  text-decoration: none;
+  color: white;
+}
+.mapBtn:hover{
+  color: white;
+  border: 1px solid white;
+  background-color: #1d1919;
+  transition: 400ms;
+}
+.lord{
+  height: 400px;
+  width: 48%;
+  margin: 5px 5px;
+ 
+}
+.lord img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 30px 50px;
+}
+.endNote{
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+
+}
+.endNoteContainer{
+  height: 300px;
+  width: 96%;
+border: 1px solid white;
+  display: flex;
+  margin: auto;
+  border-radius: 23px;
+  justify-content: center;
+  align-items: center;
+  background-color: #952b04;
+}
+.endText{
+  font-size: 3.5rem;
+  height: 200px;
+  width: 300px;
+ position: relative;
+ top: 0px;
+ left: 0px;
+}
+.endNoteContainer img{
+z-index: 5;
+}
+.mainCharacters{
+  height: 416px;
+  width: 338px;
+  position: relative;
+  top: -69px;
+  left: -108px;
+}
+.raavan{
+  height: 412px;
+  width: 433px;
+  position: relative;
+  top: -61px;
+  left: 111px;
+}

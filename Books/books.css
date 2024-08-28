@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar::before {
+  content: "";
+  position: absolute;
+  background: url(/Assets/Orange\ Background\ Simple\ Gradient\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg)
+    no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+}
+.booksContainer {
+  min-height: 93vh;
+  width: 100%;
+  background-color: #882704ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 31px;
+}
+.bookCollection{
+  min-height: 700px;
+  width: 100%;
+}
+.row1{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px;
+}
+.book{
+  height: 400px;
+  width: 280px;
+  border: 1px solid black;
+  margin-left: 20px;
+  border-radius: 23px;
+}
+.book:hover{
+  box-shadow: 1px 1px 11px 3px #eae0e0;
+}
+.bookImg img{
+  height: 280px;
+  position: relative;
+  width: 100%;
+  border-radius: 23px;
+}
+.bookDesc{
+
+  position: relative;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+ 
+}
+.brandName{
+  font-size: 23px;
+}
+.bookName{
+  font-size: 20px;
+}
+.productPrice{
+  font-size: 21px;
+  margin-top: 6px;
+}
+.shopOption{
+  position: relative;
+  left: 192px;
+  top: -29px;
+
+}
+.shopOption img{
+  height: 40px;
+  width: 40px;
+}

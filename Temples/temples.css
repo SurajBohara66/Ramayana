@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+.navbar::before {
+    content: '';
+    position: absolute;
+ background: url(/Assets/Orange\ Background\ Simple\ Gradient\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg) no-repeat;
+ background-size: cover;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .weaponsContainer{
+    min-height: 93vh;
+    width: 100%;
+    background-color: #882704ed;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .box1{
+    display: flex;
+
+    min-height:300px ;
+    width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  }
+  hr{
+    height: 0px;
+    border: 1px solid white;
+    width: 80%;
+    position: relative;
+    left: 181px;
+  }
+  .picture{
+    height:300px ;
+    width: 300px;
+    margin-right: 90px;
+    border-radius: 21px;
+  }
+  .picture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pictureDescription{
+    border: 1px solid white;
+    border-radius: 23px;
+    height:167px ;
+    padding: 10px 10px;
+    width: 600px;
+    margin-left: 35px;
+  
+   cursor: pointer;
+    font-size: 21px;
+    overflow: hidden;
+  }
+  .picture2{
+border-radius: 21px;
+    height:300px ;
+    width: 300px;
+    margin-right: 90px;
+  }
+  .picture2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pictureDescription2{
+    border: 1px solid white;
+    height:167px ;
+    padding: 10px 10px;
+    border-radius: 23px;
+    width: 600px;
+    margin-left: 35px;
+  
+   cursor: pointer;
+    font-size: 21px;
+    overflow: hidden;
+  }
